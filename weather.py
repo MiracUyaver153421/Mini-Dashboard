@@ -1,12 +1,6 @@
-"""
-weather.py - Open-Meteo API ile Hava Durumu Uygulaması
-Gereksinim: pip install requests
-"""
-
 import requests
 from datetime import datetime, timedelta
 
-# ── Sabitler ────────────────────────────────────────────────────────────────
 GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search"
 WEATHER_URL   = "https://api.open-meteo.com/v1/forecast"
 
@@ -128,7 +122,6 @@ def hava_verisi_getir(enlem: float, boylam: float) -> dict | None:
         print(f"❌ HTTP hatası: {e}")
         return None
 
-# ── Görüntüleme Fonksiyonları ────────────────────────────────────────────────
 
 def anlik_hava_goster(konum: dict, veri: dict) -> None:
     """Anlık hava durumu bilgisini terminale yazdırır."""
@@ -181,7 +174,6 @@ def tahmin_goster(veri: dict) -> None:
 
     print("─" * 62)
 
-# ── Ana Fonksiyon ────────────────────────────────────────────────────────────
 
 def hava_durumu_goster(sehir: str) -> None:
     """
@@ -206,7 +198,6 @@ def hava_durumu_goster(sehir: str) -> None:
     tahmin_goster(veri)
     print()
 
-# ── Giriş Noktası ────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
     sehir = input("🌍 Şehir adı girin: ").strip()
