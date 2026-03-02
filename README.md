@@ -1,2 +1,2 @@
-Öğrenci A NOTU: Çakışmayı çözerken kodları hızlıca inceledim ve hangi kısmın kalacağını belirleyip sorunsuz bir şekilde pull işlemini tamamladım. Çakışma yönetimini ve ekip çalışmasını, GİTHUB'ın gerçek kullanım mantığını bu sayede daha iyi kavradım.
+Öğrenci A NOTU: Çakışmayı çözerken kodları hızlıca inceledim ve hangi kısmın kalacağını belirleyip sorunsuz bir şekilde pull işlemini tamamladım. Çakışmadan sonra kodu tekrar pull yapmayı, ekip çalışmasını ve GİTHUB'ın gerçek kullanım mantığını bu sayede daha iyi kavradım.
 Öğrenci B NOTU: Çakışan satırları manuel olarak temizleyip iki farklı kodun tek dosyada sorunsuz çalıştığını görmek, takım çalışmasının mantığını kavramamı sağladı
